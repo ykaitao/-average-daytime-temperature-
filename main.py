@@ -1,4 +1,4 @@
-from temperature import get_mean_temperature
+from src.temperature import get_average_daytime_temperature
 
 
 # URLs
@@ -11,4 +11,4 @@ urls = {
 
 
 for city, url in urls.items():
-    print(f"{city} Average Temp: {get_mean_temperature(url)}")
+    print(f"{city} Average Temp: {get_average_daytime_temperature(url)}")

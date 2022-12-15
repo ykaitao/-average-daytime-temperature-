@@ -17,13 +17,14 @@ Tampa, Florida Average Temp: 69.57
 
 ## Run pytest
 ```bash
->>> pytest .
+>>> pytest
 ==================================================== test session starts =====================================================
 platform linux -- Python 3.7.4, pytest-7.2.0, pluggy-1.0.0
 rootdir: /media/ktyang/D1/Projects/average-daytime-temperature, configfile: pytest.ini
-collected 1 item                                                                                                             
+collected 4 items                                                                                                            
 
-temperature.py .                                                                                                       [100%]
+src/temperature.py .                                                                                                   [ 25%]
+tests/test_temperature.py ...                                                                                          [100%]
 
-===================================================== 1 passed in 0.72s ======================================================
+===================================================== 4 passed in 0.59s ======================================================
 ```
